@@ -1,8 +1,114 @@
-/* 
-
-This is stand-in for the App.css of YOUR app, replace it with yours if you're pasting your own app into the ClassAppSrc directory. It will apply to BOTH the Classical and Hooks versions of the app so that they can be identical when everything is working.
-
-*/
 .App {
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: lightblue;
+}
+.rounded-corners {
+	border-radius: 6px;
+	padding: 6px;
+}
+.card {
+	border-radius: 6px;
+	padding: 6px;
+	background-color: moccasin;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 85%;
+}
+.main-area {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: darkslategrey;
+}
+.name-num-header {
+	width: 96%;
+	background-color: indianred;
+}
+.pokedex-main {
+	background-color: indianred;
+	width: 96%;
+	display: flex;
+	justify-content: space-evenly;
+	height: 100%;
+}
+.pokedex-subcolumn {
+	width: 48%;
+	background-color: blue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.screen {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: lightgrey;
+	border-color: darkslategrey;
+	border: 2px solid;
+
+	display: flex;
+	width: 25vw;
+	height: 25vw;
+	justify-content: stretch;
+	justify-items: stretch;
+}
+.pokedex-image {
+	width: 100%;
+}
+.stats {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+
+	/* width: 48%; */
+}
+.stat-entry {
+	margin: 5px;
+	padding: 4px;
+	width: 25%;
+	/* flex-grow: 1; */
+	background-color: linen;
+}
+.stat-name {
+	font-weight: bolder;
+}
+.flavor-text {
+	text-align: justify;
+	margin: 5%;
+}
+.versions {
+}
+.version-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+.version {
+	width: 15%;
+	margin: 5px;
+	padding: 4px;
+	background-color: linen;
+}
+.version.selected {
+	background-color: mediumaquamarine;
+}
+.egg-group {
+	width: 15%;
+	margin: 5px;
+	padding: 4px;
+	font-weight: bold;
+}
+.types-list {
+}
+.type-entry {
+	font-weight: bold;
+	width: 15%;
+	margin: 5px;
+	padding: 4px;
 }
