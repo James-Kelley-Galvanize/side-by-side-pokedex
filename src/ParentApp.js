@@ -1,8 +1,10 @@
 import "./App.css"; // Use the existing App.css if building side-by side from scratch, or replace with your own if importing an existing app
 import ClassApp from "./ClassAppSrc/App";
 import HooksApp from "./HooksAppSrc/App";
+const getRandomPokemonNumber = ()=> Math.round(Math.random()*808)+1
 
 function ParentApp() {
+	let pokemonNum= getRandomPokemonNumber()
 	return (
 		<div className="parent-app">
 			<div className="parent-title-bar">
@@ -10,10 +12,10 @@ function ParentApp() {
 				<h1 className="parent-column parent-title-right">HOOKS</h1>
 			</div>
 			<div className="parent-column parent-left-side">
-				<ClassApp />
+				<ClassApp pokemonNum={pokemonNum}/>
 			</div>
 			<div className="parent-column parent-right-side">
-				<HooksApp />
+				<HooksApp pokemonNum={pokemonNum}/>
 			</div>
 		</div>
 	);
