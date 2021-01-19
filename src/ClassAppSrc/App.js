@@ -1,4 +1,4 @@
-// import "../App.css";
+// import "./App.css";
 import { Component } from "react";
 import NameBanner from "./components/NameBanner";
 import LeftColumn from "./components/LeftColumn";

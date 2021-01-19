@@ -1,7 +1,7 @@
 import "./App.css"; // Use the existing App.css if building side-by side from scratch, or replace with your own if importing an existing app
 import ClassApp from "./ClassAppSrc/App";
 import HooksApp from "./HooksAppSrc/App";
-const getRandomPokemonNumber = ()=> Math.round(Math.random()*808)+1
+const getRandomPokemonNumber = ()=> Math.round(Math.random()*250)+1
 
 function ParentApp() {
 	let pokemonNum= getRandomPokemonNumber()
