@@ -1,7 +1,3 @@
-/* 
-This file is a stand-in for a Hooks-based app.
-*/
-
 import { useEffect, useState } from "react";
 
 import NameBanner from "./components/NameBanner";
